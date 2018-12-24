@@ -38,7 +38,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="IRepositoryAsync.cs" />
+    <Compile Include="Interfaces\ILine24Connector.cs" />
+    <Compile Include="Interfaces\IRepositoryAsync.cs" />
     <Compile Include="Singleton.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
