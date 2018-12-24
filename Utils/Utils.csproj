@@ -38,8 +38,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entities\Call.cs" />
     <Compile Include="Interfaces\ILine24Connector.cs" />
     <Compile Include="Interfaces\IRepositoryAsync.cs" />
+    <Compile Include="Interfaces\ITelegramBot.cs" />
     <Compile Include="Singleton.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
