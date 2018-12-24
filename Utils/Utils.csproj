@@ -39,6 +39,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Entities\Call.cs" />
+    <Compile Include="FileHandlers\PathGen.cs" />
     <Compile Include="Interfaces\ILine24Connector.cs" />
     <Compile Include="Interfaces\IRepositoryAsync.cs" />
     <Compile Include="Interfaces\ITelegramBot.cs" />
