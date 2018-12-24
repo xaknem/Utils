@@ -5,7 +5,12 @@ namespace Utils.FileHandlers
 {
     public class PathGen
     {
-        private static string GetUniqueFilePath(string filepath)
+        /// <summary>
+        /// Generates unique filename as FileName(n).zzz
+        /// </summary>
+        /// <param name="filepath">Path to file</param>
+        /// <returns>Returns correct filepath</returns>
+        public static string GetUniqueFilePath(string filepath)
         {
             if (File.Exists(filepath))
             {
@@ -21,12 +26,12 @@ namespace Utils.FileHandlers
                     filename = regex.Groups[1].Value;
                     number = int.Parse(regex.Groups[2].Value);
                 }
-
                 do
                 {
                     number++;
                     filepath = Path.Combine(folder, string.Format("{0} ({1}){2}", filename, number, extension));
-                } while (File.Exists(filepath));
+                }
+                while (File.Exists(filepath));
             }
 
             return filepath;
