@@ -63,6 +63,8 @@
     <Compile Include="Interfaces\ILine24Connector.cs" />
     <Compile Include="Interfaces\IRepositoryAsync.cs" />
     <Compile Include="Interfaces\ITelegramBot.cs" />
+    <Compile Include="Logic\Authorization\Credentials.cs" />
+    <Compile Include="Logic\Authorization\CredentialsEncoder.cs" />
     <Compile Include="Logic\Iterators.cs" />
     <Compile Include="Singleton.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
