@@ -9,7 +9,7 @@ namespace Utils.Logic.Authorization
         /// </summary>
         /// <param name="credential"></param>
         /// <returns></returns>
-        private string Encode(Credentials credential)
+        public string Encode(Credentials credential)
         {
             if (credential == null || credential.Username == null || credential.Password == null)
             {
