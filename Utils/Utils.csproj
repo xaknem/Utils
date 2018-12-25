@@ -59,6 +59,8 @@
     <Compile Include="Connectors\LiteDbConnector.cs" />
     <Compile Include="Connectors\TelegramBot.cs" />
     <Compile Include="Entities\Call.cs" />
+    <Compile Include="Exceptions\DataError.cs" />
+    <Compile Include="Exceptions\IUtilError.cs" />
     <Compile Include="FileHandlers\PathGen.cs" />
     <Compile Include="Interfaces\ILine24Connector.cs" />
     <Compile Include="Interfaces\IRepositoryAsync.cs" />

@@ -11,6 +11,10 @@ namespace Utils.Logic.Authorization
         /// <returns></returns>
         private string Encode(Credentials credential)
         {
+            if (credential == null || credential.Username == null || credential.Password == null)
+            {
+                throw new NullReferenceException("Не указаны данные для авторизации");
+            }
             String encoded = Convert.ToBase64String(System.Text.Encoding.GetEncoding("ISO-8859-1")
                 .GetBytes(credential.Username + ":" + credential.Password));
             return encoded;
