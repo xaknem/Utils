@@ -68,6 +68,10 @@
     <Compile Include="Logic\Authorization\Credentials.cs" />
     <Compile Include="Logic\Authorization\CredentialsEncoder.cs" />
     <Compile Include="Logic\Iterators.cs" />
+    <Compile Include="Logic\StateMachine.cs" />
+    <Compile Include="Services\TelegramClient.cs" />
+    <Compile Include="Simplified\Controller.cs" />
+    <Compile Include="Simplified\Model.cs" />
     <Compile Include="Singleton.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
