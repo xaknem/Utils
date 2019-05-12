@@ -30,7 +30,7 @@ namespace Utils.Services
             {
                 _botClient.SendTextMessageAsync(chatId, message);
             }
-            catch (Exception e)
+            catch
             {
                 //todo change to projectLevelExceptions and catcher for it* future
                 Console.WriteLine("Fail");
